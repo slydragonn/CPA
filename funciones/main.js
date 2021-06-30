@@ -51,6 +51,19 @@ nUsuario.addEventListener("keyup", nombreDeUsuario);
 var keyNumeroNotas = document.getElementById("txt_nBloques");
 keyNumeroNotas.addEventListener("keyup", atajoEnter);
 
+var keySaveBloque = document.getElementById("savePromedio");
+keySaveBloque.addEventListener("keyup", Aceptar);
+
+function Aceptar(evento) {
+
+    if (evento.keyCode == 13) {
+        bloqueNumero = numeroBloque.value;
+        operacionBloques()
+    }
+
+
+}
+
 var minimaEnviar = document.getElementById("enviar");
 minimaEnviar.addEventListener("click", clickEnviar);
 

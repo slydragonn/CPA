@@ -48,6 +48,9 @@ var notaMinima;
 
 nUsuario.addEventListener("keyup", nombreDeUsuario);
 
+var keyNumeroNotas = document.getElementById("txt_nBloques");
+keyNumeroNotas.addEventListener("keyup", atajoEnter);
+
 var minimaEnviar = document.getElementById("enviar");
 minimaEnviar.addEventListener("click", clickEnviar);
 
@@ -55,6 +58,12 @@ function clickEnviar() {
     notaMinima = nUsuario.value;
 
     crearUsuario()
+}
+
+function atajoEnter(evento) {
+    if (evento.keyCode == 13) {
+        numeroNotas()
+    }
 }
 
 function nombreDeUsuario(evento) {
@@ -178,5 +187,6 @@ function numeroNotas() {
     } else {
         alert("El valor que ingresaste no es correcto.");
     }
-
+    let clearP = document.getElementById("txt_nBloques");
+    clearP.value = "";
 }

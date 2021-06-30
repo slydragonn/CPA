@@ -242,3 +242,13 @@ body {
     margin: 5px;
     border-radius: 5px;
 }
+
+footer {
+    display: flex;
+    background: linear-gradient(to bottom right, #FFC107, #7952B3);
+    height: 35px;
+    margin-top: 100px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}

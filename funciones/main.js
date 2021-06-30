@@ -48,6 +48,15 @@ var notaMinima;
 
 nUsuario.addEventListener("keyup", nombreDeUsuario);
 
+var minimaEnviar = document.getElementById("enviar");
+minimaEnviar.addEventListener("click", clickEnviar);
+
+function clickEnviar() {
+    notaMinima = nUsuario.value;
+
+    crearUsuario()
+}
+
 function nombreDeUsuario(evento) {
     if (evento.keyCode == 13) {
         notaMinima = nUsuario.value;

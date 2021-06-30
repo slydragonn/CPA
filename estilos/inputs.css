@@ -51,6 +51,20 @@
     background: #FFC107;
 }
 
+#enviar {
+    background: #7952B3;
+    border: 1px solid #FFEEDB;
+    text-align: center;
+    width: 75px;
+    border-radius: 5px;
+    color: #FFEEDB;
+    margin: 20px;
+}
+
+#enviar:hover {
+    background: #FFC107;
+}
+
 #guardarB {
     background: #7952B3;
     border: 1px solid #FFEEDB;

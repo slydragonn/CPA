@@ -1,0 +1,150 @@
+#txt_nBloques {
+    background: #FFEEDB;
+    border: 1px solid #FFEEDB;
+    text-align: center;
+    width: 75px;
+    border-radius: 5px;
+}
+
+#txt_nBloques:hover {
+    border: 2px solid #FFC107;
+}
+
+#boton_nBloques {
+    background: #7952B3;
+    border: 1px solid #FFEEDB;
+    text-align: center;
+    width: 75px;
+    border-radius: 5px;
+    color: #FFEEDB;
+}
+
+#boton_nBloques:hover {
+    background: #FFC107;
+}
+
+#botonNotas {
+    background: #7952B3;
+    border: 1px solid #FFEEDB;
+    text-align: center;
+    width: 75px;
+    border-radius: 5px;
+    color: #FFEEDB;
+    margin: 20px;
+}
+
+#botonNotas:hover {
+    background: #FFC107;
+}
+
+#borrarInput {
+    background: #7952B3;
+    border: 1px solid #FFEEDB;
+    text-align: center;
+    width: 75px;
+    border-radius: 5px;
+    color: #FFEEDB;
+    margin: 20px;
+}
+
+#borrarInput:hover {
+    background: #FFC107;
+}
+
+#guardarB {
+    background: #7952B3;
+    border: 1px solid #FFEEDB;
+    text-align: center;
+    width: 75px;
+    border-radius: 5px;
+    color: #FFEEDB;
+    margin: 20px;
+}
+
+#guardarB:hover {
+    background: #FFC107;
+}
+
+#padreInput input {
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #FFEEDB;
+}
+
+#padreInput input:hover {
+    border: 2px solid #FFC107;
+}
+
+#nombreUsuario {
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #FFEEDB;
+}
+
+#nombreUsuario:hover {
+    border: 2px solid #FFC107;
+}
+
+#savePromedio {
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #FFEEDB;
+}
+
+#savePromedio:hover {
+    border: 2px solid #FFC107;
+}
+
+#bloquesPromedio1 {
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #FFEEDB;
+}
+
+#bloquesPromedio1:hover {
+    border: 1px solid #FFC107;
+}
+
+#bloquesPromedio2 {
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #FFEEDB;
+}
+
+#bloquesPromedio2:hover {
+    border: 1px solid #FFC107;
+}
+
+#bloquesPromedio3 {
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #FFEEDB;
+}
+
+#bloquesPromedio3:hover {
+    border: 1px solid #FFC107;
+}
+
+#bloquesPromedio4 {
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #FFEEDB;
+}
+
+#bloquesPromedio4:hover {
+    border: 1px solid #FFC107;
+}

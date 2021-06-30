@@ -1,0 +1,26 @@
+@media screen and (max-width: 500px) {
+    .principal {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    .aside {
+        align-self: center;
+    }
+    #infoBloques {
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    #valorBloqueP1 {
+        width: 80%;
+    }
+    #valorBloqueP2 {
+        width: 80%;
+    }
+    #valorBloqueP3 {
+        width: 80%;
+    }
+    #valorBloqueP4 {
+        width: 80%;
+    }
+}

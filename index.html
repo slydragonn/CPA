@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>CPA</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedorHeader">
+            <img id="imagen" src="calculadora.png">
+            <h1 id="titulo">Calculador de Promedio Academico</h1>
+        </div>
+    </header>
+
+    <section class="principal">
+        <div id="bloqueValor">
+
+            <p>*Escribe aqui el numero de notas de tu materia
+                <input type="text" id="txt_nBloques">
+                <input type="button" value="Aceptar" id="boton_nBloques">
+            </p>
+            <br>
+            <br>
+
+            <h2>*Escribe en cada cuadro que aparece el valor de tus notas:</h2>
+            <div id="padreP">
+                <div id="padreInput"></div>
+            </div>
+
+            <input type="button" value="Aceptar" id="botonNotas">
+            <div id="padreH2"></div>
+            <input type="button" value="Borrar" id="borrarInput">
+        </div>
+        <aside class="aside">
+            <div class="usuario">
+                <div id="Usuario"></div>
+                <div>
+                    <p id="Promedio">Promedio</p>
+                </div>
+                <p id="proGeneral">Promedio General</p>
+                <p id="ApruebasN">Apruebas/No Apruebas</p>
+            </div>
+            <div class="bloquesInfo">
+
+                <div id="padreUsuario">
+                    <p>Ingresa la nota mínima</p>
+                    <input type="text" id="nombreUsuario">
+                </div>
+
+
+                <p>Valor del Bloque</p>
+                <p>1.</p><input type="text" id="bloquesPromedio1">
+                <p>2.</p><input type="text" id="bloquesPromedio2">
+                <p>3.</p><input type="text" id="bloquesPromedio3">
+                <p>4.</p><input type="text" id="bloquesPromedio4">
+
+                <p>¿Donde quiere guardar su promedio?</p>
+                <input type="text" name="" id="savePromedio">
+
+                <input type="button" value="Guardar" id="guardarB">
+
+            </div>
+
+        </aside>
+        <div id="infoBloques">
+            <div id="valorBloqueP1">
+                <div class="cuadroNumero">1</div>
+                <div id="Bloque1"></div>
+            </div>
+            <div id="valorBloqueP2">
+                <div class="cuadroNumero">2</div>
+                <div id="Bloque2"></div>
+            </div>
+            <div id="valorBloqueP3">
+                <div class="cuadroNumero">3</div>
+                <div id="Bloque3"></div>
+            </div>
+            <div id="valorBloqueP4">
+                <div class="cuadroNumero">4</div>
+                <div id="Bloque4"></div>
+            </div>
+            <div id="PromedioGeneral">
+
+                <div id="notaGeneral"></div>
+                <div id="aprobar"></div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <footer></footer>
+
+
+    <script src="funciones/main.js"></script>
+    <script src="funciones/logica.js"></script>
+    <script src="funciones/crearInput.js"></script>
+    <script src="funciones/crearTexto.js"></script>
+    <script src="funciones/logicaBloques.js"></script>
+</body>
+
+</html>

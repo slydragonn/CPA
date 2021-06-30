@@ -1,0 +1,244 @@
+@import url(media.css) all;
+@import url(inputs.css) all;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #053742;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 100px;
+    width: 95%;
+    padding: 10px;
+}
+
+.contenedorHeader {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagen {
+    width: 100px;
+}
+
+#titulo {
+    font-size: medium;
+    color: #FFEEDB;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#bloqueValor {
+    display: flex;
+    background: linear-gradient(to bottom right, #7952B3, #FFC107);
+    flex-flow: column wrap;
+    align-content: center;
+    flex-grow: 3;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 650px;
+    align-items: center;
+    color: #FFEEDB;
+}
+
+#bloqueValor h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+#padreInput {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#padreH2 {
+    margin: 20px;
+}
+
+.aside {
+    display: flex;
+    flex-flow: column wrap;
+    background: linear-gradient(to bottom right, #7952B3, #FFC107);
+    flex-grow: 2;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 300px;
+    color: #FFEEDB;
+}
+
+.usuario {
+    background: #FFC107;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.bloquesInfo {
+    background: #7952B3;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#infoBloques {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom right, #7952B3, #FFC107);
+    width: 80%;
+    min-height: 400px;
+    max-height: 800px;
+    border-radius: 20px;
+    align-self: center;
+    justify-content: center;
+    color: #FFEEDB;
+    text-align: center;
+}
+
+#valorBloqueP1 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #7952B3;
+    min-width: 220px;
+    min-height: 100px;
+    max-height: 150px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#valorBloqueP2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #7952B3;
+    min-width: 220px;
+    min-height: 100px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+#valorBloqueP3 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #7952B3;
+    min-width: 220px;
+    min-height: 100px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+#valorBloqueP4 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #7952B3;
+    min-width: 220px;
+    min-height: 100px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.cuadroNumero {
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(to bottom right, #FFC107, #7952B3);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#Bloque1 {
+    width: 80%;
+    height: 50%;
+    background: linear-gradient(to bottom right, #FFC107, #7952B3);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#Bloque2 {
+    width: 80%;
+    height: 50%;
+    background: linear-gradient(to bottom right, #FFC107, #7952B3);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#Bloque3 {
+    width: 80%;
+    height: 50%;
+    background: linear-gradient(to bottom right, #FFC107, #7952B3);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#Bloque4 {
+    width: 80%;
+    height: 50%;
+    background: linear-gradient(to bottom right, #FFC107, #7952B3);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#PromedioGeneral {
+    margin: 10px;
+    display: flex;
+    background: #7952B3;
+    width: 80%;
+    min-height: 100px;
+    max-height: 150px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#promedioNeto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 50%;
+    background: linear-gradient(to bottom right, #FFC107, #7952B3);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#notaGeneral {
+    width: 70%;
+    height: 70%;
+    background: linear-gradient(to bottom right, #FFC107, #7952B3);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#aprobar {
+    width: 100px;
+    height: 25px;
+    background: #FFC107;
+    margin: 5px;
+    border-radius: 5px;
+}

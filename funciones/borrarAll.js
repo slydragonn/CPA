@@ -40,4 +40,8 @@ function deleteAll() {
     promedioGeneral.innerHTML = "";
     let aprobaste = document.getElementById("aprobar");
     aprobaste.innerHTML = "";
+
+    let usuarioM = document.getElementById("Usuario");
+    usuarioM.innerHTML = "";
+    crearNotaMinima()
 }

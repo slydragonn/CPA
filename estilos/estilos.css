@@ -252,3 +252,12 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+#cajaBotonAll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 40%;
+    height: 100px;
+}

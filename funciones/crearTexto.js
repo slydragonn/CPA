@@ -25,6 +25,9 @@ function eliminar() {
     let borraInput = borrar.parentNode;
     borraInput.removeChild(borrar);
 
+    let padreh = document.getElementById("padreH2");
+    padreh.innerHTML = "";
+
     let pdre = document.getElementById("padreP");
     let crear = document.createElement("div");
     crear.setAttribute("id", "padreInput");

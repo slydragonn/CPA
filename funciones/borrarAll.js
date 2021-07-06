@@ -41,7 +41,6 @@ function deleteAll() {
     let aprobaste = document.getElementById("aprobar");
     aprobaste.innerHTML = "";
 
-    let usuarioM = document.getElementById("Usuario");
-    usuarioM.innerHTML = "";
-    crearNotaMinima()
+
+
 }

@@ -46,6 +46,15 @@ var nota10;
 var nUsuario = document.getElementById("nombreUsuario");
 var notaMinima;
 
+var minimaEnviar = document.getElementById("enviar");
+minimaEnviar.addEventListener("click", clickEnviar);
+
+function clickEnviar() {
+    notaMinima = nUsuario.value;
+
+    crearUsuario()
+}
+
 nUsuario.addEventListener("keyup", nombreDeUsuario);
 
 var keyNumeroNotas = document.getElementById("txt_nBloques");
@@ -64,14 +73,7 @@ function Aceptar(evento) {
 
 }
 
-var minimaEnviar = document.getElementById("enviar");
-minimaEnviar.addEventListener("click", clickEnviar);
 
-function clickEnviar() {
-    notaMinima = nUsuario.value;
-
-    crearUsuario()
-}
 
 function atajoEnter(evento) {
     if (evento.keyCode == 13) {

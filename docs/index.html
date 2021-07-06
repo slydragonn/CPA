@@ -50,13 +50,13 @@
                 <p id="ApruebasN">Apruebas/No Apruebas</p>
             </div>
             <div class="bloquesInfo">
-
-                <div id="padreUsuario">
-                    <p>Ingresa la nota mínima</p>
-                    <input type="text" id="nombreUsuario">
-                    <input type="button" value="Enviar" id="enviar">
+                <div id="contenedorUsuario">
+                    <div id="padreUsuario">
+                        <p>Ingresa la nota mínima</p>
+                        <input type="text" id="nombreUsuario">
+                        <input type="button" value="Enviar" id="enviar">
+                    </div>
                 </div>
-
 
                 <p>Valor del Bloque</p>
                 <p>1.</p><input type="text" id="bloquesPromedio1">
@@ -99,9 +99,14 @@
 
 
         </div>
+        <div id="cajaBotonAll">
+            <input type="button" value="Borrar Todo" id="borrarAll">
+        </div>
 
     </section>
-    <footer></footer>
+    <footer>
+
+    </footer>
 
 
     <script src="funciones/main.js"></script>
@@ -109,6 +114,7 @@
     <script src="funciones/crearInput.js"></script>
     <script src="funciones/crearTexto.js"></script>
     <script src="funciones/logicaBloques.js"></script>
+    <script src="funciones/borrarAll.js"></script>
 </body>
 
 </html>

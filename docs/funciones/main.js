@@ -115,8 +115,9 @@ function aprobacion() {
     }
 }
 
-function numeroNotas() {
-
+function numeroNotas() { 
+    eliminar();
+    
     xNotas = nNotas.value;
 
 
